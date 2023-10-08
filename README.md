@@ -1,27 +1,18 @@
-# React + TypeScript + Vite
+# Big Number process
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is one of the questions in BAT's pre-test.
 
-Currently, two official plugins are available:
+## Original question
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+寫一個函式計算下列公式之總和：
 
-## Expanding the ESLint configuration
+1+2-3+4-5+6-.....+ 或 -  N
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+N = 面試現場提供（N 一定是正整數）
 
-- Configure the top-level `parserOptions` property like this:
+有個小要求：
+面試現場會使用您的電腦代入值，代入 N 值之後程式現場運行出結果的時間不能超過 2 秒，且不會造成當機。
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Live Demo
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+Check out the live demo [here](https://lovecamilletw.github.io/b-pretest-bigNumber/).
